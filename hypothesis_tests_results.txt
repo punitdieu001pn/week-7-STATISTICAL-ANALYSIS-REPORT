@@ -1,0 +1,46 @@
+HYPOTHESIS TEST RESULTS
+
+---------------------------------------
+
+1. Churn vs Monthly Charges
+Test Used: Independent T-Test
+
+Result:
+The p-value is less than 0.05.
+
+Conclusion:
+We reject the null hypothesis.
+There is a significant relationship between monthly charges and customer churn.
+Customers with higher monthly charges are more likely to churn.
+
+---------------------------------------
+
+2. Senior Citizen vs Monthly Charges
+Test Used: Independent T-Test
+
+Result:
+The p-value is less than 0.05.
+
+Conclusion:
+We reject the null hypothesis.
+There is a significant difference in monthly charges between senior and non-senior customers.
+
+---------------------------------------
+
+3. Contract Type vs Monthly Charges
+Test Used: One-Way ANOVA
+
+Result:
+The p-value is greater than 0.05.
+
+Conclusion:
+We fail to reject the null hypothesis.
+There is no significant difference in monthly charges across different contract types.
+
+---------------------------------------
+
+FINAL INTERPRETATION:
+
+- Monthly charges play an important role in customer churn.
+- Senior citizens have different spending behavior.
+- Contract type does not significantly affect monthly charges.
